@@ -6,8 +6,7 @@ public class empbonus {
         if (years > 5) {
             bonus = salary * 10/100;
         } else {
-            bonus = salary * 5/100                                                                                        ;
+            bonus = salary * 5 / 100;
         }
-        System.out.println("Bonus Amount: " + bonus);
     }
 }
